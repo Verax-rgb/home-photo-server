@@ -1,7 +1,18 @@
-# Rebuild Guide
-1. Install Ubuntu Server 24.04
-2. `sudo apt update && sudo apt upgrade -y`
-3. Install Docker + Docker Compose
-4. Clone repo
-5. Copy `.env.example` → `.env` and update values
-6. `docker compose up -d`
+# Hardware Specifications
+
+## Server Hardware
+- Device: Zotac ZBOX Mini-PC
+- CPU: Intel Celeron (dual-core, 1.5GHz)  *(update this to your actual CPU if different)*
+- RAM: 4GB DDR3
+- Storage: 
+  - 8TB External HDD (Primary photo storage)
+  - 128GB Internal SSD (OS + Docker containers)
+
+## Networking
+- Ethernet: Gigabit LAN
+- Wi-Fi: Disabled (server uses wired connection for stability)
+
+## Power
+- Power Supply: 65W
+- UPS: Not currently used (future upgrade recommended)
+
